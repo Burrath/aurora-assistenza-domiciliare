@@ -10,7 +10,7 @@ export function Hero() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Assistenza Domiciliare, ambulanze,{" "}
+                Assistenza Domiciliare, Ambulanze,{" "}
                 <span className="text-primary">Patronato&CAF</span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg">
