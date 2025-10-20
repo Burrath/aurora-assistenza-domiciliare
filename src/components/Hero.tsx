@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Heart, Shield, Clock, Users } from "lucide-react";
+import heroImage from "@/assets/hero.png";
 
 export function Hero() {
   return (
@@ -9,12 +10,11 @@ export function Hero() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Assistenza Domiciliare{" "}
-                <span className="text-primary">Anziani</span>
+                Assistenza Domiciliare, ambulanze,{" "}
+                <span className="text-primary">Patronato&CAF</span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg">
-                La gestione di un anziano a domicilio è il compito più difficile che possa capitare. 
-                Noi di Aurora vogliamo essere il tuo punto di riferimento concreto.
+                Noi di Aurora siamo il tuo punto di riferimento concreto per l'assistenza di chi ne ha più bisogno
               </p>
             </div>
 
@@ -22,24 +22,27 @@ export function Hero() {
               <div className="flex items-start space-x-3">
                 <Heart className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                 <p className="text-sm text-muted-foreground">
-                  Vogliamo essere sempre presenti per qualsiasi emergenza, occupandoci delle sue esigenze primarie
+                  Siamo sempre presenti per qualsiasi emergenza, occupandoci delle vostre esigenze primarie
                 </p>
               </div>
               <div className="flex items-start space-x-3">
                 <Shield className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                 <p className="text-sm text-muted-foreground">
-                  Non vogliamo portarlo in una casa di riposo ma vogliamo che continui a vivere nella sua abitazione
+                  Garantiamo una vita dignitosa e sicura a chi decide di continuare a vivere nella sua abitazione
                 </p>
               </div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="group">
-                Scopri i nostri servizi
-                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              <Button size="lg" className="group" asChild>
+                <a href="tel:+393484191693">
+                  Chiama Ora
+                </a>
               </Button>
-              <Button size="lg" variant="outline">
-                Chiama Ora
+              <Button size="lg" variant="outline" asChild>
+                <a href="https://wa.me/393484191693">
+                  WhatsApp
+                </a>
               </Button>
             </div>
 
@@ -69,14 +72,12 @@ export function Hero() {
           </div>
 
           <div className="relative">
-            <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/20 to-purple-600/20 flex items-center justify-center">
-              <div className="text-center space-y-4">
-                <div className="h-24 w-24 mx-auto rounded-full bg-primary/20 flex items-center justify-center">
-                  <Heart className="h-12 w-12 text-primary" />
-                </div>
-                <h3 className="text-xl font-semibold">Assistenza Domiciliare</h3>
-                <p className="text-muted-foreground">Con amore e professionalità</p>
-              </div>
+            <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
+              <img 
+                src={heroImage} 
+                alt="Assistenza Domiciliare Aurora" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>

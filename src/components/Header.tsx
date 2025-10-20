@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Mail, Heart } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
+import logoImage from "@/assets/logo.png";
 
 export function Header() {
   return (
@@ -10,11 +11,11 @@ export function Header() {
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-1">
               <Phone className="h-3 w-3" />
-              <span>095 93 17 96</span>
+              <a href="tel:+393484191693" className="hover:text-primary transition-colors">+39 348 419 1693</a>
             </div>
             <div className="flex items-center space-x-1">
               <Mail className="h-3 w-3" />
-              <span>info@auroraassistenza.it</span>
+              <a href="mailto:info@auroraassistenza.it" className="hover:text-primary transition-colors">info@auroraassistenza.it</a>
             </div>
           </div>
           <div className="hidden md:block">
@@ -24,39 +25,30 @@ export function Header() {
 
         {/* Main navigation */}
         <div className="flex items-center justify-between py-4">
-          <div className="flex items-center space-x-2">
-            <div className="h-8 w-8 rounded bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-              <Heart className="h-5 w-5 text-white" />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold">Aurora</h1>
-              <p className="text-xs text-muted-foreground">Assistenza Domiciliare</p>
-            </div>
+          <div className="flex items-center">
+            <img src={logoImage} alt="Aurora Logo" className="h-10 w-auto" />
           </div>
 
           <nav className="hidden md:flex items-center space-x-6">
-            <a href="#home" className="text-sm font-medium hover:text-primary transition-colors">
+            <a href="#home" className="text-sm font-medium hover:text-primary transition-colors scroll-smooth">
               Home
             </a>
-            <a href="#assistenza-anziani" className="text-sm font-medium hover:text-primary transition-colors">
+            <a href="#assistenza-anziani" className="text-sm font-medium hover:text-primary transition-colors scroll-smooth">
               Assistenza Anziani
             </a>
-            <a href="#ambulanza" className="text-sm font-medium hover:text-primary transition-colors">
+            <a href="#ambulanza" className="text-sm font-medium hover:text-primary transition-colors scroll-smooth">
               Trasporto Ambulanza
             </a>
-            <a href="#patronato" className="text-sm font-medium hover:text-primary transition-colors">
-              CAF/Patronato
+            <a href="#patronato" className="text-sm font-medium hover:text-primary transition-colors scroll-smooth">
+              Patronato&CAF
             </a>
-            <a href="#servizi" className="text-sm font-medium hover:text-primary transition-colors">
-              Servizi
-            </a>
-            <a href="#contatti" className="text-sm font-medium hover:text-primary transition-colors">
-              Contatti
+            <a href="#contatti" className="text-sm font-medium hover:text-primary transition-colors scroll-smooth">
+              Dove trovarci
             </a>
           </nav>
 
-          <Button size="sm" className="hidden md:inline-flex">
-            Richiedi Assistenza
+          <Button size="sm" className="hidden md:inline-flex" asChild>
+            <a href="#contatti">Richiedi Assistenza</a>
           </Button>
         </div>
       </div>

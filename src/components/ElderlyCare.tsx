@@ -31,15 +31,15 @@ export function ElderlyCare() {
                 <div className="flex items-start space-x-3">
                   <XCircle className="h-6 w-6 text-red-500 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold text-red-700 dark:text-red-400">Non crediamo in un'assistenza svolta da un'unica badante convivente</h4>
-                    <p className="text-sm text-muted-foreground">Tale soluzione non si avvicina minimamente agli standard da noi previsti</p>
+                    <h4 className="font-semibold text-red-700 dark:text-red-400">Non crediamo in badanti poco qualificate e senza fiducia</h4>
+                    <p className="text-sm text-muted-foreground">La sicurezza e la competenza sono i pilastri fondamentali del nostro servizio</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-green-500 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold text-green-700 dark:text-green-400">Crediamo in un'assistenza domiciliare basata su turnazioni</h4>
-                    <p className="text-sm text-muted-foreground">L'assistente può recuperare psicologicamente e fisicamente</p>
+                    <h4 className="font-semibold text-green-700 dark:text-green-400">Crediamo in assistenti formati e qualificati</h4>
+                    <p className="text-sm text-muted-foreground">Ogni nostro operatore è selezionato, formato e continuamente aggiornato per garantire la massima professionalità</p>
                   </div>
                 </div>
               </div>
@@ -97,8 +97,8 @@ export function ElderlyCare() {
               Un unico responsabile a voi dedicato sarà l'interlocutore che organizzerà le soluzioni specifiche 
               per rendere l'abitazione del paziente il luogo ideale per essere assistito
             </p>
-            <Button size="lg">
-              Richiedi Assistenza
+            <Button size="lg" asChild>
+              <a href="#contatti">Richiedi Assistenza</a>
             </Button>
           </div>
         </div>
