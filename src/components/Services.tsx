@@ -68,12 +68,9 @@ export function Services() {
                 <CardTitle className="text-xl">{service.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-sm leading-relaxed mb-4">
+                <CardDescription className="text-sm leading-relaxed">
                   {service.description}
                 </CardDescription>
-                <Button variant="outline" size="sm" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                  Scopri di più
-                </Button>
               </CardContent>
             </Card>
           ))}

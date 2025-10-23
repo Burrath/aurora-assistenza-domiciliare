@@ -21,6 +21,9 @@ export function ElderlyCare() {
             La nostra organizzazione vuole dare rapide soluzioni alle esigenze e alla qualità di vita 
             del paziente a domicilio e dei suoi familiari
           </p>
+          <p className="text-sm text-primary font-medium">
+            🌟 Serviamo Giarre e tutta la provincia di Catania con professionalità e dedizione
+          </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">

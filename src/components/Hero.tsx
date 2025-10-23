@@ -8,14 +8,20 @@ export function Hero() {
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Assistenza Domiciliare, Ambulanze,{" "}
-                <span className="text-primary">Patronato&CAF</span>
-              </h1>
-              <p className="text-lg text-muted-foreground max-w-lg">
-                Noi di Aurora siamo il tuo punto di riferimento concreto per l'assistenza di chi ne ha più bisogno
-              </p>
+            <div className="space-y-6">
+              <div className="space-y-4">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
+                  <div className="block mb-2">Assistenza Domiciliare</div>
+                  <div className="block mb-2">Ambulanze</div>
+                  <div className="block text-primary">Patronato&CAF</div>
+                </h1>
+                <p className="text-lg text-muted-foreground max-w-lg">
+                  Noi di Aurora siamo il tuo punto di riferimento concreto per l'assistenza di chi ne ha più bisogno
+                </p>
+                <p className="text-sm text-primary font-medium">
+                  📍 Siamo di Giarre e lavoriamo in tutta la provincia di Catania
+                </p>
+              </div>
             </div>
 
             <div className="space-y-4">

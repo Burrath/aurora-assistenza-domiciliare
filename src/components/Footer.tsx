@@ -3,7 +3,7 @@ import logoImage from "@/assets/logo.png";
 
 export function Footer() {
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-red-50 dark:bg-red-950/20 text-gray-800 dark:text-gray-200">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -11,7 +11,7 @@ export function Footer() {
             <div className="flex items-center">
               <img src={logoImage} alt="Aurora Logo" className="h-10 w-auto" />
             </div>
-            <p className="text-sm text-gray-300 leading-relaxed">
+            <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed">
               Leader nell'assistenza domiciliare per anziani in Sicilia. 
               Professionalità, umanità e servizio 24/7 per la dignità del paziente.
             </p>
@@ -44,12 +44,12 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="font-semibold text-lg">Servizi</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#assistenza-anziani" className="text-gray-300 hover:text-primary transition-colors">Assistenza Domiciliare</a></li>
-              <li><a href="#ambulanza" className="text-gray-300 hover:text-primary transition-colors">Trasporti Ambulanza</a></li>
-              <li><a href="#patronato" className="text-gray-300 hover:text-primary transition-colors">CAF/Patronato</a></li>
-              <li><a href="#servizi" className="text-gray-300 hover:text-primary transition-colors">Infermieri Professionali</a></li>
-              <li><a href="#servizi" className="text-gray-300 hover:text-primary transition-colors">Noleggio Presidi</a></li>
-              <li><a href="#servizi" className="text-gray-300 hover:text-primary transition-colors">Casa Sicura</a></li>
+              <li><a href="#assistenza-anziani" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">Assistenza Domiciliare</a></li>
+              <li><a href="#ambulanza" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">Trasporti Ambulanza</a></li>
+              <li><a href="#patronato" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">CAF/Patronato</a></li>
+              <li><a href="#servizi" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">Infermieri Professionali</a></li>
+              <li><a href="#servizi" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">Noleggio Presidi</a></li>
+              <li><a href="#servizi" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">Casa Sicura</a></li>
             </ul>
           </div>
 
@@ -58,19 +58,19 @@ export function Footer() {
             <h4 className="font-semibold text-lg">Disponibilità</h4>
             <div className="space-y-2 text-sm">
               <div className="flex justify-between">
-                <span className="text-gray-300">Assistenza</span>
+                <span className="text-gray-600 dark:text-gray-300">Assistenza</span>
                 <span>24/7</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-300">Infermieri</span>
+                <span className="text-gray-600 dark:text-gray-300">Infermieri</span>
                 <span>24/7</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-300">Ambulanze</span>
+                <span className="text-gray-600 dark:text-gray-300">Ambulanze</span>
                 <span>24/7</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-300">Ufficio</span>
+                <span className="text-gray-600 dark:text-gray-300">Ufficio</span>
                 <span>8:00 - 18:00</span>
               </div>
             </div>
@@ -83,16 +83,16 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-12 pt-8">
+        <div className="border-t border-red-200 dark:border-red-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-sm text-gray-400">
+            <div className="text-sm text-gray-500 dark:text-gray-400">
               <p>&copy; 2024 Aurora Assistenza Domiciliare. Tutti i diritti riservati.</p>
               <p className="mt-1">Sito web realizzato dall'ufficio marketing e comunicazione interno</p>
             </div>
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors">Privacy Policy</a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors">Termini di Servizio</a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors">Cookie Policy</a>
+              <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-primary transition-colors">Privacy Policy</a>
+              <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-primary transition-colors">Termini di Servizio</a>
+              <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-primary transition-colors">Cookie Policy</a>
             </div>
           </div>
         </div>

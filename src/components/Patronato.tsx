@@ -19,7 +19,7 @@ export function Patronato() {
               <h3 className="text-2xl font-bold">Consulenza Tempestiva sui Diritti</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Forniamo a domicilio una consulenza tempestiva sui diritti del malato e ci occupiamo 
-                sia del disbrigo pratiche per l'ottenimento dei presidi a carico dell'ASP di Catania, 
+                sia del disbrigo pratiche per l'ottenimento dei presidi a carico dell'ASP della provincia di Catania, 
                 sia per quelle relative a invalidità e accompagnamento.
               </p>
             </div>
