@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 import logoImage from "@/assets/logo.png";
 
 export function Footer() {
@@ -23,11 +23,15 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-primary" />
-                <a href="tel:+393484191693" className="text-sm hover:text-primary transition-colors">+39 348 419 1693</a>
+                <a href="tel:+393484191693" className="text-sm hover:text-primary transition-colors">Tel: +39 348 4191693</a>
+              </div>
+              <div className="flex items-center space-x-3">
+                <MessageCircle className="h-4 w-4 text-primary" />
+                <a href="https://wa.me/393484191693" className="text-sm hover:text-primary transition-colors">Whatsapp: +39 348 4191693</a>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-primary" />
-                <a href="mailto:info@auroraassistenza.it" className="text-sm hover:text-primary transition-colors">info@auroraassistenza.it</a>
+                <a href="mailto:info@ambulanzeaurora.it" className="text-sm hover:text-primary transition-colors">info@ambulanzeaurora.it</a>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 text-primary mt-0.5" />
