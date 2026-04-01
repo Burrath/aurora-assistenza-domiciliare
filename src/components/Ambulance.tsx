@@ -8,9 +8,9 @@ export function Ambulance() {
     <section id="ambulanza" className="py-20 bg-gradient-to-br from-blue-50 to-purple-100 dark:from-blue-950/20 dark:to-purple-950/20">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold">Trasporto in Ambulanza</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Trasporto ambulanze a Giarre</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Le nostre ambulanze sono dotate di attrezzature d'avanguardia e condotte da volontari qualificati
+            Il nostro servizio di trasporto ambulanze a Giarre è garantito da mezzi dotati di attrezzature d'avanguardia e condotti da volontari qualificati.
           </p>
         </div>
 

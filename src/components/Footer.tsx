@@ -12,7 +12,7 @@ export function Footer() {
               <img src={logoImage} alt="Aurora Logo" className="h-10 w-auto" />
             </div>
             <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed">
-              Leader nell'assistenza domiciliare per anziani in Sicilia. 
+              Trasporto ambulanze a Giarre e assistenza domiciliare per anziani in Sicilia. 
               Professionalità, umanità e servizio 24/7 per la dignità del paziente.
             </p>
           </div>
@@ -94,7 +94,7 @@ export function Footer() {
               <p className="mt-1">Sito web realizzato dall'ufficio marketing e comunicazione interno</p>
             </div>
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-primary transition-colors">Privacy Policy</a>
+              <a href="/privacy-policy" className="text-gray-500 dark:text-gray-400 hover:text-primary transition-colors">Privacy Policy</a>
               <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-primary transition-colors">Termini di Servizio</a>
               <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-primary transition-colors">Cookie Policy</a>
             </div>

@@ -6,17 +6,27 @@ import { Patronato } from "./components/Patronato";
 import { Services } from "./components/Services";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { PrivacyPolicy } from "./components/PrivacyPolicy";
 
 function App() {
+  const normalizedPath = window.location.pathname.replace(/\/+$/, "") || "/";
+  const isPrivacyPage = normalizedPath === "/privacy-policy";
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <Hero />
-      <ElderlyCare />
-      <Ambulance />
-      <Patronato />
-      <Services />
-      <Contact />
+      {isPrivacyPage ? (
+        <PrivacyPolicy />
+      ) : (
+        <>
+          <Hero />
+          <ElderlyCare />
+          <Ambulance />
+          <Patronato />
+          <Services />
+          <Contact />
+        </>
+      )}
       <Footer />
     </div>
   );

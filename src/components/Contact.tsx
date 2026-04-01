@@ -9,7 +9,7 @@ export function Contact() {
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl md:text-4xl font-bold">Dove Trovarci</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Contattaci per qualsiasi esigenza di assistenza domiciliare
+            Contattaci per trasporto ambulanze a Giarre, assistenza domiciliare e tutti i nostri servizi. Siamo a Giarre e in tutta la provincia di Catania.
           </p>
         </div>
 

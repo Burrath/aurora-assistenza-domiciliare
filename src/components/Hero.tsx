@@ -11,10 +11,11 @@ export function Hero() {
             <div className="space-y-6">
               <div className="space-y-4">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-                  <div className="block mb-2">Assistenza Domiciliare</div>
-                  <div className="block mb-2">Ambulanze</div>
-                  <div className="block text-primary">Patronato&CAF</div>
+                  Trasporto ambulanze a Giarre
                 </h1>
+                <p className="text-xl text-muted-foreground font-medium mt-2">
+                  Assistenza Domiciliare · Ambulanze · Patronato &amp; CAF
+                </p>
                 <p className="text-lg text-muted-foreground max-w-lg">
                   Noi di Aurora siamo il tuo punto di riferimento concreto per l'assistenza di chi ne ha più bisogno
                 </p>

@@ -19,7 +19,7 @@ const services = [
   {
     icon: Ambulance,
     title: "Trasporti Ambulanza",
-    description: "Ambulanze dotate di attrezzature d'avanguardia, climatizzate e condotte da volontari qualificati.",
+    description: "Trasporto ambulanze a Giarre: mezzi dotati di attrezzature d'avanguardia, climatizzati e condotti da volontari qualificati. Servizio 24/7.",
     badge: "Emergenza"
   },
   {
